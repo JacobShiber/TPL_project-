@@ -1,0 +1,49 @@
+@font-face {
+    font-family: logoFont;
+    src: url(fonts/logo_font/Colchester.ttf);
+}
+
+@font-face {
+    font-family: textBold;
+    src: url(fonts/text_font/Mordred-Bold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    display: flex;
+    margin-left: 18%;
+}
+
+.mainLogoText {
+    font-family: logoFont;
+    font-size: 75px;
+    margin-top: 2.5%;
+}
+
+#mainLogoPic {
+    width: 15%;
+    height: 15%;
+}
+
+
+#navBar {
+    height: 50px;
+    width: 95%;
+    margin-left: 2.5%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navLinks {
+    color: white;
+    text-decoration: none;
+    font-family: textBold;
+    font-size: 30px;
+    margin: 1%;
+    text-transform: uppercase;
+}
