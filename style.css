@@ -34,9 +34,12 @@
     height: 50px;
     width: 95%;
     margin-left: 2.5%;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    box-sizing: border-box;
 }
 
 .navLinks {
@@ -44,6 +47,44 @@
     text-decoration: none;
     font-family: textBold;
     font-size: 30px;
-    margin: 1%;
     text-transform: uppercase;
 }
+
+ul li {
+    list-style-type: none;
+    line-height: 50px; 
+    transition: 1s;   
+}
+
+ul li:hover {
+    background-color: white;
+}
+
+ul li a:hover {
+    color: black;
+}
+
+#arrowDownCat{
+    font-size: 15px;
+    position: relative;
+    bottom: 3px;
+    left: 1.5px;
+}
+
+#catLinks {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.catLink {
+    font-family: textBold;
+    font-size: 25px;
+    list-style-type: none;
+    line-height: 70px;
+}
+
+.catLink a {
+    text-decoration: none;
+    color: black;
+}
+

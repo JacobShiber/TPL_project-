@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,24 +8,31 @@
     <link rel="stylesheet" href="./style.css">
     <title>TPL</title>
 </head>
+
 <body>
     <header>
         <section id="logo">
-        <h1 class="mainLogoText">The Pirate Loot</h1>
-        <img src="./logo_media/skull_logo_1.gif" alt="tplLogo" id="mainLogoPic">
-        <h1 class="mainLogoText">Since 1998</h1>
+            <h1 class="mainLogoText">The Pirate Loot</h1>
+            <img src="./logo_media/skull_logo_1.gif" alt="tplLogo" id="mainLogoPic">
+            <h1 class="mainLogoText">Since 1998</h1>
         </section>
 
-        <nav id="navBar">
-            <a href="#" class="navLinks">Home</a>
-            <a href="#" class="navLinks">Categories</a>
-            <a href="#" class="navLinks">About</a>
-            <a href="#" class="navLinks">Login</a>
+        <nav>
+            <ul id="navBar">
+                <li><a href="#" class="navLinks">Home</a></li>
+                <li><a href="./index.html#catLinksContainer" class="navLinks" id="categoriesLink">Categories<span id="arrowDownCat">▽</span></a></li>
+                <li><a href="#" class="navLinks">About</a></li>
+                <li><a href="#" class="navLinks">Cart</a></li>
+            </ul>
         </nav>
+        <section id="catLinksContainer">
+            <ul id="catLinks"></ul>
+        </section>
     </header>
     <main></main>
     <footer></footer>
 
     <script src="./main.js"></script>
 </body>
+
 </html>
