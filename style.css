@@ -81,10 +81,20 @@ ul li a:hover {
     font-size: 25px;
     list-style-type: none;
     line-height: 70px;
+    /* margin-left: 10%; */
 }
 
 .catLink a {
     text-decoration: none;
     color: black;
+}
+
+#subNavUp {
+    width: 10%;
+    height: 20%;
+    position: relative;
+    left: 46%;
+    background-color: rgb(157, 0, 0);
+    border: none;
 }
 
