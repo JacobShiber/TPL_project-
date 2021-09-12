@@ -1,7 +1,4 @@
-const categoriesLinks = ["hats", "streetwear", "kicks", "giftshop"];
-
-
-
+// this is the categories sub-nav bar functions
 
 categoriesLink.onclick = () => {
     let counter = 0;
