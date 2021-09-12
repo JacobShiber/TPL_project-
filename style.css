@@ -15,7 +15,7 @@
 
 #logo {
     display: flex;
-    margin-left: 18%;
+    margin-left: 16.5%;
 }
 
 .mainLogoText {
@@ -97,4 +97,15 @@ ul li a:hover {
     background-color: rgb(157, 0, 0);
     border: none;
 }
+
+
+#adSection{
+    width: 60%;
+    height: 200px;
+    background: url(./homepage_media/ad_secondOneFree.gif);
+    background-size: contain;
+    margin-top: 50px;
+    margin-left: 20%;
+}
+
 
