@@ -32,3 +32,16 @@ catLinksContainer.onclick = () => {
         catLinks.innerHTML = "";
     }, 100);
 };
+
+
+//this is for the new drop section 
+
+for (let i = 0; i < newDropSection.length; i++) {
+    newDropSec.innerHTML += `<article class = "dropItem">
+    <img src = ${newDropSection[i].image1} width ="100%" height = "50%">
+    <h3>${newDropSection[i].name}</h3>
+    <p>${newDropSection[i].description}</p>
+    <p>${newDropSection[i].price}$</p> <button class = "buyBtn">Add to cart</button>
+    </article>`
+}
+
