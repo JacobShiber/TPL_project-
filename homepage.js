@@ -36,6 +36,8 @@ catLinksContainer.onclick = () => {
 
 //this is for the new drop section 
 
+
+
 for (let i = 0; i < newDropSection.length; i++) {
     articleContainer.innerHTML += `<article class = "dropItem">
     <img src = ${newDropSection[i].image1} width ="100%" height = "50%">
@@ -45,6 +47,9 @@ for (let i = 0; i < newDropSection.length; i++) {
     <button class = "buyBtn">Add to cart</button>
     </article>`
 }
+
+
+
 
 let sliderCounter = 0;
 
@@ -66,3 +71,15 @@ slideLeftBtn.onclick = () => {
         }
      }, 0.5);
 };
+
+//this is the most popular section 
+
+for (let i = 0; i < mostPopularSection.length; i++) {
+    mostPopular.innerHTML += `<article class = "popItem">
+    <img src = ${mostPopularSection[i].image1} width ="100%" height = "50%">
+    <h3>${mostPopularSection[i].name}</h3>
+    <p>${mostPopularSection[i].description.toUpperCase()}</p>
+    <p>${mostPopularSection[i].price}$</p> 
+    <button class = "buyBtn">Add to cart</button>
+    </article>`
+}
