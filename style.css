@@ -119,26 +119,32 @@ ul li a:hover {
 
 
 #newDropSec {
-    width: 95%;
-    height: 450px;
-    background-color: rgb(213, 189, 189, 0.3);
+    max-width: 95%;
+    max-height: 450px;
+    background-color: rgba(235, 214, 214, 0.3);
     margin-left: 2.5%;
+    overflow: hidden;
+}
+
+#articleContainer {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
+    flex-flow: nowrap;
+    width: 200%;
+    position: relative;
 }
 
 #dropSecHeader {
     font-family: textBold;
     font-size: 40px;
-    position: relative;
-    left: 2.5%;
+    margin-left: 2.5%;
     margin-top: 2.5%;
 }
 
 .dropItem {
-    width: 20%;
-    height: 90%;
+    width: 7.5%;
+    height: 5%;
     padding: 0.5%;
     border: 1px solid black;
     background-color: white;
@@ -163,3 +169,25 @@ ul li a:hover {
     margin-left: 5%;
 }
 
+#slideLeftBtn {
+    position: relative;
+    right: 2%;
+    bottom: 225px;
+    height: 50px;
+    color: white;
+    background-color: black;
+}
+
+#slideRightBtn{
+    position: relative;
+    left: 98.5%;
+    bottom: 225px;
+    height: 50px;
+    color: white;
+    background-color: black;
+}
+
+#modelsSection img {
+    width: 95%;
+    margin-left: 2.5%;
+}

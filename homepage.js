@@ -37,11 +37,32 @@ catLinksContainer.onclick = () => {
 //this is for the new drop section 
 
 for (let i = 0; i < newDropSection.length; i++) {
-    newDropSec.innerHTML += `<article class = "dropItem">
+    articleContainer.innerHTML += `<article class = "dropItem">
     <img src = ${newDropSection[i].image1} width ="100%" height = "50%">
     <h3>${newDropSection[i].name}</h3>
-    <p>${newDropSection[i].description}</p>
-    <p>${newDropSection[i].price}$</p> <button class = "buyBtn">Add to cart</button>
+    <p>${newDropSection[i].description.toUpperCase()}</p>
+    <p>${newDropSection[i].price}$</p> 
+    <button class = "buyBtn">Add to cart</button>
     </article>`
 }
 
+let sliderCounter = 0;
+
+slideRightBtn.onclick = () => {
+    let sliderAnimation = setInterval(() => {
+       articleContainer.style.left = `-${sliderCounter++}%` 
+       if (sliderCounter > 100){
+           clearInterval(sliderAnimation);
+       }
+    }, 0.5);
+};
+
+
+slideLeftBtn.onclick = () => {
+    let sliderAnimation = setInterval(() => {
+        articleContainer.style.left = `-${sliderCounter--}%` 
+        if (sliderCounter < 0){
+            clearInterval(sliderAnimation);
+        }
+     }, 0.5);
+};
