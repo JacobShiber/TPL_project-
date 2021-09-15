@@ -46,7 +46,7 @@ for (let i = 0; i < newDropSection.length; i++) {
     <img src = ${newDropSection[i].image1} width ="100%" height = "50%">
     <h3>${newDropSection[i].name}</h3>
     <p>${newDropSection[i].description.toUpperCase()}</p>
-    <p>${newDropSection[i].price}</p> 
+    <p>${newDropSection[i].price}$</p> 
     <button class = "buyBtn" onclick = "addToCart()">Add to cart</button>
     </article>`
 }
