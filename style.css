@@ -297,4 +297,5 @@ footer h1 {
     position: fixed;
     left: 96%;
     top: 15px;
+    z-index: 1001;
 }
