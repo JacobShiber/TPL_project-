@@ -11,6 +11,10 @@
 
 <body>
     <header>
+        <section id="cartHolder">
+            <div id = "numOfItems"></div>
+        <a href="./cart/cart.html" id="cartPage"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4NBqH23vyQTznqpVp4wJMqatMu84rYJIZIA&usqp=CAU" alt="cart"></a>
+        </section>
         <section id="logo">
             <h1 class="mainLogoText">The Pirate Loot</h1>
             <img src="./logo_media/skull_logo_1.gif" alt="tplLogo" id="mainLogoPic">
@@ -22,7 +26,7 @@
                 <li><a href="#" class="navLinks">Home</a></li>
                 <li><a href="#" class="navLinks" id="categoriesLink">Categories<span id="arrowDownCat">▽</span></a></li>
                 <li><a href="#" class="navLinks">About</a></li>
-                <li><a href="#" class="navLinks">Cart</a></li>
+                <!-- <li><a href="#" class="navLinks">Cart</a></li> -->
             </ul>
         </nav>
         <section id="catLinksContainer">
@@ -50,11 +54,23 @@
             <img src="https://dacavestore.com/wp-content/uploads/2020/04/new-era-brand-cap-difference.jpg" alt="models">
         </section>
 
+
+
+        <form id="contactUsForm">
+            <label id="formLabel">Send us a massage !</label>
+            <input type="email" id="emailInput" placeholder="Insert E-mail">
+            <input type="text" id="textInput" placeholder="Insert Text Here">
+            <input type="submit" value="submit" id="submitBtn">
+        </form>
+
     </main>
-    <footer></footer>
+    <footer>
+        <h1>All rights reserved®</h1>
+    </footer>
 
     <script src="./main-info.js"></script>
     <script src="./homepage.js"></script>
+    <script src="./cart/cart.js"></script>
 </body>
 
 </html>

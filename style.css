@@ -230,3 +230,71 @@ ul li a:hover {
     margin-bottom: 5%;
 }
 
+#contactUsForm {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 200px;
+    text-align: center;
+    margin-left: 30%;
+    font-size: 50px;
+    margin-top: 2%;
+}
+
+#emailInput {
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    height: 20px;
+}
+
+#textInput {
+    height: 300px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+
+#submitBtn {
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 2%;
+}
+
+footer {
+    height: 200px;
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.9);
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cartPage {
+    position: relative;
+    left: 92.5%;
+    top: 30px;
+}
+
+#cartPage img {
+    width: 3.5%;
+    position: fixed;
+    z-index: 1000;
+}
+
+footer h1 {
+    font-family: textBold;
+}
+
+#numOfItems {
+    width: 1.5%;
+    height: 3%;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    position: fixed;
+    left: 96%;
+    top: 15px;
+}
