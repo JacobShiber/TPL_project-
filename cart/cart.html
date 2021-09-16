@@ -4,10 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./cart.css">
     <title>Document</title>
 </head>
 <body>
-    <section id="cartItemsContainer"></section>
+    <header>
+        <section id="logo">
+            <h1 class="mainLogoText">The Pirate Loot</h1>
+            <img src="../logo_media/skull_logo_1.gif" alt="tplLogo" id="mainLogoPic">
+            <h1 class="mainLogoText">Since 1998</h1>
+        </section>
+
+        <nav>
+            <ul id="navBar">
+                <li><a href="../index.html" class="navLinks">Home</a></li>
+                <li><a href="#" class="navLinks" id="categoriesLink">Categories<span id="arrowDownCat">▽</span></a></li>
+                <li><a href="#" class="navLinks">About</a></li>
+                <!-- <li><a href="#" class="navLinks">Cart</a></li> -->
+            </ul>
+        </nav>
+        <section id="catLinksContainer">
+            <ul id="catLinks"></ul>
+        </section>
+    </header>
+    <h1 id="cartHeader">Your cart</h1>
+    <section id="cartItemsContainer"> 
+        <article id="itemsDisplay">
+            <table id = "itemsTable" cellspacing></table>
+        </article>
+    </section>
 
 
     <script src="../main-info.js"></script>
