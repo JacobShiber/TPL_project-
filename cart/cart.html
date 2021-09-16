@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="./cart.css">
     <title>Document</title>
 </head>
+
 <body>
     <header>
         <section id="logo">
@@ -28,9 +30,21 @@
         </section>
     </header>
     <h1 id="cartHeader">Your cart</h1>
-    <section id="cartItemsContainer"> 
+    <section id="cartItemsContainer">
         <article id="itemsDisplay">
-            <table id = "itemsTable" cellspacing></table>
+            <table id="itemsTable" cellspacing></table>
+        </article>
+        <article id="summery">
+            <h1 id="summeryHeader">Summery</h1>
+            <div id="summerySubTotal"></div>
+            <div id="paymentMethod">
+                <label>Payment Methods</label><br>
+                <input type="radio" id="paypal" name="paymentMethod" value="paypal">
+                <img src="https://www.finsmes.com/wp-content/uploads/2021/03/paypal.png" alt="paypal" class="paymentMet"><br>
+                <input type="radio" id="creditcard" name="paymentMethod" value="creditcard">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/MasterCard_Logo.svg/1280px-MasterCard_Logo.svg.png" alt="mastercard" class="paymentMet"><br>
+                
+            </div>
         </article>
     </section>
 
@@ -39,4 +53,5 @@
     <script src="../homepage.js"></script>
     <script src="./cart.js"></script>
 </body>
+
 </html>

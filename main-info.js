@@ -166,8 +166,9 @@ const cartItems = [
         image1: "https://cdn.kickscrew.com/media/catalog/product/cache/dd3ae58018643bb67b4bf8f0a77873b1/C/T/CT8527-112_Nike_Air_Jordan_4_Retro_Metallic_Red_White_a-L.jpg",
         image2: "https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/cbbd92db-b786-42ba-a2b6-c3815169f818/air-jordan-4-red-metallic-release-date.jpg",
         category: "kicks",
+        quantity: "1",
         sub_category: "sport",
-        id: "9"
+        id: "9" 
     },
     {
         name: `CAPO GLO VINYL`,
@@ -176,6 +177,7 @@ const cartItems = [
         image1: "https://cdn.shopify.com/s/files/1/0763/6569/products/MG_1042_720x.png?v=1631205459",
         image2: "https://cdn.shopify.com/s/files/1/0763/6569/products/MG_1044_720x.png?v=1631205459",
         category: "giftshop",
+        quantity : "1",
         sub_category: "toy",
         id: "11"
     },
@@ -186,8 +188,9 @@ const cartItems = [
         image1: "https://vlone.llc/wp-content/uploads/2021/09/Vlone-x-Tupac-Rebel-Of-The-Underground-Hoodie-Black-Front-937x937.jpg",
         image2: "https://vlone.llc/wp-content/uploads/2021/09/Vlone-x-Tupac-Rebel-Of-The-Underground-Hoodie-Black-Back-937x937.jpg",
         category: "streetwear",
+        quantity: "1",
         sub_category: "winter",
-        id: "6"
+        id: "6" 
     },
     {
         name: `DETROIT TIGERS`,
@@ -196,6 +199,7 @@ const cartItems = [
         image1: "https://www.neweracap.com/medias/?context=bWFzdGVyfHJvb3R8MjI5MzgzfGltYWdlL3BuZ3xoMDQvaDVmLzk5MzI5MzA1ODA1MTB8NDA0MmY2YjQzMDNiY2FlODdmMTUyODU3YmM1ZjVlMTkwNjhjMTUzMDQ5Y2Y2NGNmMWQ4Yzg5YjBlMDNhMmU4MQ",
         image2: "https://www.neweracap.com/medias/?context=bWFzdGVyfHJvb3R8MjEyMjM3fGltYWdlL3BuZ3xoZDIvaDY4Lzk5MzI5MzA4NDI2NTR8NTQyYTM3YmJkOGQ5MzdhM2VmNzdjZjA5MzgzN2I2ZGZmZGQzNzI0YjlhNzEyNTI3ZTA0MjUyNzM3N2Q1MjliYw",
         category: "hats",
+        quantity: "1",
         sub_category: "fitted",
         id: "4"
     },
