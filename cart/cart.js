@@ -32,7 +32,7 @@ function printItems() {
 
 printItems();
 
-function findById(id) {
+function findCartItemById(id) {
     for (let i = 0; i < cartItems.length; i++) {
         if (id == cartItems[i].id) {
             return i;
@@ -44,28 +44,28 @@ function removeItem(button) {
     let x = button.id;
     switch (x) {
         case "9":
-            cartItems.splice(findById("9"), 1);
+            cartItems.splice(findCartItemById("9"), 1);
             itemsTable.innerHTML = "";
             printItems();
             summerySubTotal.innerHTML = "";
             printSummery ();
             break;
         case "11":
-            cartItems.splice(findById("11"), 1);
+            cartItems.splice(findCartItemById("11"), 1);
             itemsTable.innerHTML = "";
             printItems();
             summerySubTotal.innerHTML = "";
             printSummery ();
             break;
         case "6":
-            cartItems.splice(findById("6"), 1);
+            cartItems.splice(findCartItemById("6"), 1);
             itemsTable.innerHTML = "";
             printItems();
             summerySubTotal.innerHTML = "";
             printSummery ();
             break;
         case "4":
-            cartItems.splice(findById("4"), 1);
+            cartItems.splice(findCartItemById("4"), 1);
             itemsTable.innerHTML = "";
             printItems();
             summerySubTotal.innerHTML = "";
@@ -115,22 +115,22 @@ function updateQuantity(select) {
     let x = select.id
     switch (x) {
         case "a9":
-            (cartItems[findById("9")]).quantity = a9.value
+            (cartItems[findCartItemById("9")]).quantity = a9.value
             summerySubTotal.innerHTML = "";
             printSummery ()
             break;
         case "a11":
-            (cartItems[findById("11")]).quantity = a11.value
+            (cartItems[findCartItemById("11")]).quantity = a11.value
             summerySubTotal.innerHTML = "";
             printSummery ()
             break;
         case "a6":
-            (cartItems[findById("6")]).quantity = a6.value
+            (cartItems[findCartItemById("6")]).quantity = a6.value
             summerySubTotal.innerHTML = "";
             printSummery ()
             break;
         case "a4":
-            (cartItems[findById("4")]).quantity = a4.value
+            (cartItems[findCartItemById("4")]).quantity = a4.value
             summerySubTotal.innerHTML = "";
             printSummery ()
             break;
@@ -170,6 +170,10 @@ function calculateAfterDiscount(yaakov){
         }
     }
     return calculateArraySum(newArray);
+}
+
+checkOutBtn.onclick = () => {
+    alert("Order have been recieved")
 }
 
 

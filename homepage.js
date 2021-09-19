@@ -13,7 +13,7 @@ categoriesLink.onclick = () => {
 
     setTimeout(() => {
         for (let i = 0; i < categoriesLinks.length; i++) {
-            catLinks.innerHTML += `<li class = "catLink"><a href = "">${categoriesLinks[i].toUpperCase()}</a></li>`;
+            catLinks.innerHTML += `<li class = "catLink"><a href = "${linksHref[0]}">${categoriesLinks[i].toUpperCase()}</a></li>`;
         }
     }, 500);
 
@@ -41,9 +41,26 @@ function addToCart() {
     numOfItems.innerHTML = itemsCounter++;
 }
 
+// function findItemById(id) {
+//     for (let i = 0; i < allItems.length; i++) {
+//         if (id == allItems[i].id) {
+//             return i;
+//         }
+//     }
+// }
+
+function displaySecondPic (){
+    console.log("hello");
+}
+
+
+
 for (let i = 0; i < newDropSection.length; i++) {
     articleContainer.innerHTML += `<article class = "dropItem">
-    <img src = ${newDropSection[i].image1} width ="100%" height = "50%">
+    <div id = "pics">
+    <img src = ${newDropSection[i].image2}>
+    <img src = ${newDropSection[i].image1} class = "secondPic">
+    </div>
     <h3>${newDropSection[i].name}</h3>
     <p>${newDropSection[i].description.toUpperCase()}</p>
     <p>${newDropSection[i].price}$</p> 
