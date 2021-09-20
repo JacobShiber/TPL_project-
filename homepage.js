@@ -41,19 +41,6 @@ function addToCart() {
     numOfItems.innerHTML = itemsCounter++;
 }
 
-// function findItemById(id) {
-//     for (let i = 0; i < allItems.length; i++) {
-//         if (id == allItems[i].id) {
-//             return i;
-//         }
-//     }
-// }
-
-function displaySecondPic (){
-    console.log("hello");
-}
-
-
 
 for (let i = 0; i < newDropSection.length; i++) {
     articleContainer.innerHTML += `<article class = "dropItem">
@@ -96,7 +83,8 @@ slideLeftBtn.onclick = () => {
 
 for (let i = 0; i < mostPopularSection.length; i++) {
     mostPopular.innerHTML += `<article class = "popItem">
-    <img src = ${mostPopularSection[i].image1} width ="100%" height = "50%">
+    <img src = ${mostPopularSection[i].image2}>
+    <img src = ${mostPopularSection[i].image1} class = "popSecondPic">
     <h3>${mostPopularSection[i].name}</h3>
     <p>${mostPopularSection[i].description.toUpperCase()}</p>
     <p>${mostPopularSection[i].price}$</p> 

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,11 +8,14 @@
     <link rel="stylesheet" href="./all_page/all_page.css">
     <title>TPL All</title>
 </head>
+
 <body>
     <header>
         <section id="cartHolder">
-            <div id = "numOfItems"></div>
-        <a href="./cart.html" id="cartPage"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4NBqH23vyQTznqpVp4wJMqatMu84rYJIZIA&usqp=CAU" alt="cart"></a>
+            <div id="numOfItems"></div>
+            <a href="./cart.html" id="cartPage"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4NBqH23vyQTznqpVp4wJMqatMu84rYJIZIA&usqp=CAU"
+                    alt="cart"></a>
         </section>
         <section id="logo">
             <h1 class="mainLogoText">The Pirate Loot</h1>
@@ -30,7 +34,52 @@
             <ul id="catLinks"></ul>
         </section>
     </header>
-    <main></main>
+    <main>
+
+        <h1 id="pageHeader">All</h1>
+
+        <section id="hatsSections">
+            <h1>Hats</h1>
+
+            <div id="hatsContainer"></div>
+
+            <button id="slideRightBtn">►</button>
+            <button id="slideLeftBtn">◄</button>
+
+        </section>
+
+        <section id="streetwearSections">
+            <h1>Streetwear</h1>
+
+            <div id="streetwearContainer"></div>
+
+            <button id="slideRightBtn1">►</button>
+            <button id="slideLeftBtn1">◄</button>
+
+        </section>
+
+        <section id="kicksSections">
+            <h1>Kicks</h1>
+
+            <div id="kicksContainer"></div>
+
+            <button id="slideRightBtn2">►</button>
+            <button id="slideLeftBtn2">◄</button>
+
+        </section>
+
+        <section id="giftshopSections">
+            <h1>Gift shop</h1>
+
+            <div id="giftshopContainer"></div>
+
+            <button id="slideRightBtn3">►</button>
+            <button id="slideLeftBtn3">◄</button>
+
+        </section>
+
+        <div id="displayItem"></div>
+    </main>
     <footer>
         <h1>All rights reserved®</h1>
     </footer>
@@ -38,7 +87,8 @@
 
     <script src="./main-info.js"></script>
     <script src="./homepage.js"></script>
-    <script src="../cart/cart.js"></script>
-    <script src="./all_page.js"></script>
+    <script src="./cart/cart.js"></script>
+    <script src="./all_page/all_page.js"></script>
 </body>
+
 </html>

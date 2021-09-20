@@ -112,6 +112,119 @@ ul li {
     z-index: 1000;
 }
 
+#hatsSections h1 {
+    margin-top: 2%;
+    font-size: 35px;
+    margin-left: 2%;
+}
+
+#hatsSections {
+    max-width: 95%;
+    max-height: 425px;
+    background-color: rgba(235, 214, 214, 0.3);
+    margin-left: 2.5%;
+    overflow: hidden;
+}
+
+#hatsContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: nowrap;
+    width: 200%;
+    position: relative;
+}
+
+.hatItem {
+    width: 7.5%;
+    height: 5%;
+    padding: 0.5%;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.hatItem img {
+    width: 100%;
+    height: 200px;
+}
+
+.hatItem h3 {
+    font-size: 15px;
+    text-align: center;
+}
+
+#slideLeftBtn {
+    position: relative;
+    right: 2%;
+    bottom: 160px;
+    height: 50px;
+    color: white;
+    background-color: black;
+}
+
+#slideRightBtn{
+    position: relative;
+    left: 98.5%;
+    bottom: 160px;
+    height: 50px;
+    color: white;
+    background-color: black;
+}
+
+.expendBtn {
+    font-family: textRegular;
+    font-weight: 700;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    margin-left: 37.5%;
+    margin-top: 5%;
+}
+
+#displayItem{
+    height: 30%;
+    width: 95%;
+    margin-left: 2.5%;
+}
+.specificItem{
+    display: flex;
+    justify-content: center;
+}
+
+.specificItem .specificText{
+    margin-top: 7%;
+}
+
+.specificItem .specificText h3 {
+    font-size: 50px;
+}
+
+.specificItem .specificText p {
+    margin-top: 2%;
+    width: 50%;
+}
+
+.priceTag {
+    font-size: 45px;
+}
+
+.buyBtn {
+    margin-top: 7%;
+    font-family: textBold;
+    width: 65%;
+    height: 7%;
+    font-size: 25px;
+    background: white;
+}
+
+.specificPics {
+    width: 45%;
+}
+.specificPics img {
+    width: 70%;
+    height: 40%;
+}
+
 footer {
     height: 200px;
     width: 100%;
@@ -124,4 +237,159 @@ footer {
 
 footer h1 {
     font-family: textBold;
+}
+
+#numOfItems {
+    width: 1.5%;
+    height: 3%;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    position: fixed;
+    left: 96%;
+    top: 15px;
+    z-index: 1001;
+}
+
+.closeBtn {
+    width: 4%;
+    height: 4%;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    bottom: 300px;
+    right: 650px;
+    cursor: pointer;
+}
+
+
+#streetwearSections h1 {
+    margin-top: 2%;
+    font-size: 35px;
+    margin-left: 2%;
+}
+
+#streetwearSections {
+    max-width: 95%;
+    max-height: 425px;
+    background-color: rgba(235, 214, 214, 0.3);
+    margin-left: 2.5%;
+    overflow: hidden;
+}
+
+#streetwearContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: nowrap;
+    width: 250%;
+    position: relative;
+}
+
+#slideLeftBtn1 {
+    position: relative;
+    right: 2%;
+    bottom: 160px;
+    height: 50px;
+    color: white;
+    background-color: black;
+}
+
+#slideRightBtn1 {
+    position: relative;
+    left: 98.5%;
+    bottom: 160px;
+    height: 50px;
+    color: white;
+    background-color: black;
+}
+
+#kicksSections h1 {
+    margin-top: 2%;
+    font-size: 35px;
+    margin-left: 2%;
+}
+
+#kicksSections {
+    max-width: 95%;
+    max-height: 425px;
+    background-color: rgba(235, 214, 214, 0.3);
+    margin-left: 2.5%;
+    overflow: hidden;
+}
+
+#kicksContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: nowrap;
+    width: 200%;
+    position: relative;
+}
+
+#slideLeftBtn2 {
+    position: relative;
+    right: 2%;
+    bottom: 160px;
+    height: 50px;
+    color: white;
+    background-color: black;
+}
+
+#slideRightBtn2 {
+    position: relative;
+    left: 98.5%;
+    bottom: 160px;
+    height: 50px;
+    color: white;
+    background-color: black;
+}
+
+
+#giftshopSections h1 {
+    margin-top: 2%;
+    font-size: 35px;
+    margin-left: 2%;
+}
+
+#giftshopSections {
+    max-width: 95%;
+    max-height: 425px;
+    background-color: rgba(235, 214, 214, 0.3);
+    margin-left: 2.5%;
+    overflow: hidden;
+}
+
+#giftshopContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: nowrap;
+    width: 220%;
+    position: relative;
+}
+
+#slideLeftBtn3 {
+    position: relative;
+    right: 2%;
+    bottom: 160px;
+    height: 50px;
+    color: white;
+    background-color: black;
+}
+
+#slideRightBtn3 {
+    position: relative;
+    left: 98.5%;
+    bottom: 160px;
+    height: 50px;
+    color: white;
+    background-color: black;
+}
+
+#pageHeader {
+    margin-left: 2.5%;
+    margin-top: 1.25%;
+    margin-bottom: 1.25%;
+    font-size: 50px;
 }

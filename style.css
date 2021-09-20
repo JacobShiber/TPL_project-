@@ -229,6 +229,23 @@ ul li {
     background-color: white;
 }
 
+.popItem img {
+    width: 100%;
+    height: 50%;
+}
+
+.popItem .popSecondPic {
+    position: absolute;
+    width: 21%;
+    height: 29.5%;
+    margin-left: -20.9%;
+    margin-top: -0.25%;
+}
+
+.popItem .popSecondPic:hover {
+    opacity: 0;
+}
+
 .popItem h3 {
     font-size: 25px;
     border-bottom: 2px solid black;
