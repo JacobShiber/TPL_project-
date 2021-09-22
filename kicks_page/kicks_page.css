@@ -138,50 +138,50 @@ footer h1 {
     z-index: 1001;
 }
 
-#streetwearContent {
+#kicksContent {
     display: flex;
     flex-direction: row;
 }
 
-#streetwearSideNav {
+#kicksSideNav {
     margin-left: 5%;
     margin-top: 5%;
     width: 17.5%;
     height: 100%;
 }
 
-#streetwearSideNav h1 {
+#kicksSideNav h1 {
     font-size: 50px;
 }
 
-#streetwearSideNav button {
+#kicksSideNav button {
     cursor: pointer;
     font-size: 25px;
     font-family: textBold;
 }
 
-#allWearBtn {
+#allKicksBtn {
     border-bottom: 2px solid black;
     border-top: none;
     border-left: none;
     border-right: none;
 }
 
-#winterBtn {
+#nikeBtn {
     border-bottom: none;
     border-top: none;
     border-left: none;
     border-right: none;
 }
 
-#summerBtn {
+#adidasBtn {
     border-bottom: none;
     border-top: none;
     border-left: none;
     border-right: none;
 }
 
-#wearItems {
+#kicksItems {
     width: 75%;
     margin-top: 5%;
     margin-left: 2.5%;
@@ -189,19 +189,19 @@ footer h1 {
     flex-wrap: wrap;
 }
 
-.wearItem {
+.kickItem {
     width: 22.5%;
     height : 25%;
     padding: 0.5%;
     padding-bottom: 1.5%;
 }
 
-.wearItem img {
+.kickItem img {
     width: 100%;
-    height : 70%;
+    height: 100%;
 }
 
-.wearItem h1 { 
+.kickItem h1 { 
     text-align: center;
 }
 

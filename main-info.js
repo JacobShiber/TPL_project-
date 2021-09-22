@@ -1,5 +1,5 @@
 const categoriesLinks = ["all", "hats", "streetwear", "kicks", "giftshop"];
-const linksHref = ["./all_page.html", "./hats_page.html", "./streetwear_page.html"]
+const linksHref = ["./all_page.html", "./hats_page.html", "./streetwear_page.html", "./kicks_page.html", "./giftshop_page.html"]
 
 const newDropSection = [
     {
