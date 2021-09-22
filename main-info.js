@@ -1,5 +1,5 @@
 const categoriesLinks = ["all", "hats", "streetwear", "kicks", "giftshop"];
-const linksHref = ["./all_page.html"]
+const linksHref = ["./all_page.html", "./hats_page.html", "./streetwear_page.html"]
 
 const newDropSection = [
     {
@@ -354,7 +354,7 @@ const allItems = [
         image1: "https://neweracap.widen.net/content/u9lklb5cp7/png/60113551_9TWENTY_MLBLIGATURE_DETTIG_OTC_3QL.png?w=640&h=640&position=c&color=ffffffff&quality=80&u=eiggi3",
         image2: "https://neweracap.widen.net/content/5tbbcvo2wv/png/60113551_9TWENTY_MLBLIGATURE_DETTIG_OTC_R.png?w=640&h=640&position=c&color=ffffffff&quality=80&u=eiggi3",
         category: "hats",
-        sub_category: "snapbacak",
+        sub_category: "snapback",
         id: "15"
     },
     {

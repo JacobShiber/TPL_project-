@@ -13,7 +13,7 @@ categoriesLink.onclick = () => {
 
     setTimeout(() => {
         for (let i = 0; i < categoriesLinks.length; i++) {
-            catLinks.innerHTML += `<li class = "catLink"><a href = "${linksHref[0]}">${categoriesLinks[i].toUpperCase()}</a></li>`;
+            catLinks.innerHTML += `<li class = "catLink"><a href = "${linksHref[i]}">${categoriesLinks[i].toUpperCase()}</a></li>`;
         }
     }, 500);
 
