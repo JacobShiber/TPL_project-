@@ -40,7 +40,7 @@ function printSpecificItems(category, destination) {
             destination.innerHTML += `<article class = "hatItem">
     <img src = ${allItems[i].image1}>
     <h3>${allItems[i].name}</h3>
-    <button class = "expendBtn" onclick = "printFullItem(findItemById(${allItems[i].id}))">Expend</button>
+    <a href ="./all_page.html#displayItem" class = "expendBtn" onclick = "printFullItem(findItemById(${allItems[i].id}))">Expend</a>
     </article>`
         }
     }
