@@ -49,7 +49,7 @@ for (let i = 0; i < newDropSection.length; i++) {
     <img src = ${newDropSection[i].image1} class = "secondPic">
     </div>
     <h3>${newDropSection[i].name}</h3>
-    <p>${newDropSection[i].description.toUpperCase()}</p>
+    <p id = "descriptionNewDrop">${newDropSection[i].description.toUpperCase()}</p>
     <p>${newDropSection[i].price}$</p> 
     <button class = "buyBtn" onclick = "addToCart()">Add to cart</button>
     </article>`
@@ -86,7 +86,7 @@ for (let i = 0; i < mostPopularSection.length; i++) {
     <img src = ${mostPopularSection[i].image2}>
     <img src = ${mostPopularSection[i].image1} class = "popSecondPic">
     <h3>${mostPopularSection[i].name}</h3>
-    <p>${mostPopularSection[i].description.toUpperCase()}</p>
+    <p id = "descriptionPop">${mostPopularSection[i].description.toUpperCase()}</p>
     <p>${mostPopularSection[i].price}$</p> 
     <button class = "buyBtn" onclick = "addToCart()">Add to cart</button>
     </article>`

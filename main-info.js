@@ -33,7 +33,7 @@ const newDropSection = [
         id: "3"
     },
     {
-        name: `DETROIT<br>TIGERS`,
+        name: `DETROIT TIGERS`,
         description: "DETROIT TIGERS TEAM DRIP 59FIFTY FITTED WITH SIDE PATCH",
         price: 41.99,
         image1: "https://www.neweracap.com/medias/?context=bWFzdGVyfHJvb3R8MjI5MzgzfGltYWdlL3BuZ3xoMDQvaDVmLzk5MzI5MzA1ODA1MTB8NDA0MmY2YjQzMDNiY2FlODdmMTUyODU3YmM1ZjVlMTkwNjhjMTUzMDQ5Y2Y2NGNmMWQ4Yzg5YjBlMDNhMmU4MQ",
