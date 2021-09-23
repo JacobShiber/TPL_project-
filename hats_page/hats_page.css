@@ -268,3 +268,223 @@ footer h1 {
     right: 650px;
     cursor: pointer;
 }
+
+@media screen and (max-width: 1024px) {
+    #logo {
+        display: flex;
+        margin-left: 10%;
+    }
+    #displayItem{
+        height: 30%;
+        width: 95%;
+        margin-left: 2.5%;
+        margin-top: 20%;
+    }
+    .closeBtn {
+        width: 4%;
+        height: 4%;
+        border-radius: 50%;
+        background-color: white;
+        position: relative;
+        bottom: 300px;
+        right: 425px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width:768px){
+    #logo {
+        display: flex;
+        margin-left: 15%;
+    }
+    
+    .mainLogoText {
+        font-family: logoFont;
+        font-size: 50px;
+        margin-top: 2.5%;
+    }
+
+    .hatItem {
+        width: 28.5%;
+        height : 25%;
+    }
+    
+    .hatItem img {
+        width: 100%;
+    }
+    
+    .hatItem h1 { 
+        text-align: center;
+    }
+    
+    .expendBtn {
+        font-family: textRegular;
+        font-weight: 700;
+        font-size: 14px;
+        border: none;
+        cursor: pointer;
+        margin-left: 37.5%;
+        margin-top: 5%;
+        color: black;
+    }
+
+    #displayItem{
+        height: 30%;
+        width: 95%;
+        margin-left: 2.5%;
+        margin-top: 40%;
+        margin-bottom: 20%;
+    }
+
+    .specificItem{
+        display: flex;
+        justify-content: center;
+        margin-left: 5%;
+    }
+    
+    .specificItem .specificText{
+        margin-top: 7%;
+    }
+    
+    .specificItem .specificText h3 {
+        font-size: 35px;
+    }
+    
+    .specificItem .specificText p {
+        margin-top: 2%;
+        width: 50%;
+    }
+    
+    .specificPics {
+        width: 45%;
+    }
+    .specificPics img {
+        width: 70%;
+        height: 40%;
+    }
+    
+    .priceTag {
+        font-size: 35px;
+    }
+    
+    .buyBtn {
+        margin-top: 7%;
+        font-family: textBold;
+        width: 55%;
+        height: 9%;
+        font-size: 25px;
+        background: white;
+    }
+
+
+    .closeBtn {
+        width: 4%;
+        height: 4%;
+        border-radius: 50%;
+        background-color: white;
+        position: relative;
+        bottom: 300px;
+        right: 300px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #logo {
+        display: flex;
+        margin-left: 10%;
+    }
+    
+    .mainLogoText {
+        font-family: logoFont;
+        font-size: 50px;
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
+    }
+    
+    #mainLogoPic {
+        display: none;
+    }
+
+    #sinceText {
+        display: none;
+    }
+
+    #cartPage {
+        position: relative;
+        left: 88.5%;
+        top: 22.5px;
+    }
+    
+    #cartPage img {
+        width: 7.5%;
+        position: fixed;
+        z-index: 1000;
+    }
+
+    
+    .navLinks {
+        color: white;
+        text-decoration: none;
+        font-family: textBold;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+      
+    
+    .catLink {
+        font-family: textBold;
+        font-size: 15px;
+        list-style-type: none;
+        line-height: 70px;
+    }
+
+    #hatsContent {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #hatsSideNav {
+        margin-left: 5%;
+        margin-top: 5%;
+        width: 95%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    #hatsSideNav h1 {
+        font-size: 35px;
+    }
+    
+    #hatsSideNav button {
+        cursor: pointer;
+        font-size: 20px;
+        font-family: textBold;
+    }
+    #hatsItems {
+        width: 75%;
+        margin-top: 5%;
+        margin-left: 10.5%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .hatItem {
+        width: 28.5%;
+        height : 27%;
+    }
+
+    .specificItem .specificText h3 {
+        font-size: 25px;
+    }
+
+    .buyBtn {
+        margin-top: 7%;
+        font-family: textBold;
+        width: 65%;
+        height: 20%;
+        font-size: 25px;
+        background: white;
+    }
+}
