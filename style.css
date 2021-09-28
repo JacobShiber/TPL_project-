@@ -327,14 +327,6 @@ footer h1 {
     z-index: 1001;
 }
 
-@media screen and (max-width: 1440px) {
-    .popItem .popSecondPic {
-        height: 27.5%;
-    }
-
-}
-
-
 @media screen and (max-width: 1024px) {
     #contactUsForm {
         font-size: 35px;
@@ -433,7 +425,7 @@ footer h1 {
     .popItem .popSecondPic {
         position: absolute;
         width: 24%;
-        height: 25.5%;
+        height: 34.5%;
         margin-left: -23.9%;
         margin-top: -0.25%;
     }
@@ -507,7 +499,7 @@ footer h1 {
     }
     #newDropSec {
         max-width: 95%;
-        max-height: 425px;
+        max-height: 500px;
         background-color: rgba(235, 214, 214, 0.3);
         margin-left: 2.5%;
         overflow: scroll;
@@ -515,6 +507,7 @@ footer h1 {
     
     #articleContainer {
         display: flex;
+        height: 100%;
         justify-content: space-around;
         align-items: center;
         flex-flow: nowrap;
@@ -530,8 +523,8 @@ footer h1 {
     }
     
     .dropItem {
-        width: 7.5%;
-        height: 5%;
+        width: 10%;
+        height: 100%;
         padding: 0.5%;
         border: 1px solid black;
         background-color: white;
@@ -544,9 +537,9 @@ footer h1 {
     
     .dropItem .secondPic {
         position: absolute;
-        width: 8%;
+        width: 10%;
         height: 72.5%;
-        margin-left: -7.7%;
+        margin-left: -9.7%;
         margin-top: -0.5%;
     }
     
@@ -605,8 +598,8 @@ footer h1 {
     .popItem .popSecondPic {
         position: absolute;
         width: 38%;
-        height: 27.5%;
-        margin-left: -38%;
+        height: 35.5%;
+        margin-left: -38.25%;
         margin-top: -0.25%;
     }
     
