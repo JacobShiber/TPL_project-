@@ -83,7 +83,6 @@ ul li {
     font-size: 25px;
     list-style-type: none;
     line-height: 70px;
-    /* margin-left: 10%; */
 }
 
 .catLink a {
@@ -135,4 +134,105 @@ footer h1 {
 #skullGif {
     margin-left: 32.5%;
     margin-top: 2.5%;
+}
+
+@media screen and (max-width: 1024px){
+    #logo {
+        display: flex;
+        margin-left: 10%;
+    }
+    #displayItem{
+        height: 30%;
+        width: 95%;
+        margin-left: 2.5%;
+        margin-top: 20%;
+    }
+    .closeBtn {
+        width: 4%;
+        height: 4%;
+        border-radius: 50%;
+        background-color: white;
+        position: relative;
+        bottom: 300px;
+        right: 425px;
+        cursor: pointer;
+    }
+    #skullGif {
+        margin-left: 27.5%;
+        margin-top: 2.5%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    #logo {
+        display: flex;
+        margin-left: 15%;
+    }
+    
+    .mainLogoText {
+        font-family: logoFont;
+        font-size: 50px;
+        margin-top: 2.5%;
+    }
+    #skullGif {
+        margin-left: 20%;
+        margin-top: 2.5%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #logo {
+        display: flex;
+        margin-left: 10%;
+    }
+    
+    .mainLogoText {
+        font-family: logoFont;
+        font-size: 50px;
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
+    }
+    
+    #mainLogoPic {
+        display: none;
+    }
+
+    #sinceText {
+        display: none;
+    }
+
+    #cartPage {
+        position: relative;
+        left: 88.5%;
+        top: 22.5px;
+    }
+    
+    #cartPage img {
+        width: 7.5%;
+        position: fixed;
+        z-index: 1000;
+    }
+
+    
+    .navLinks {
+        color: white;
+        text-decoration: none;
+        font-family: textBold;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+      
+    
+    .catLink {
+        font-family: textBold;
+        font-size: 15px;
+        list-style-type: none;
+        line-height: 70px;
+    }
+    #skullGif {
+        margin-left: 20%;
+        margin-top: 2.5%;
+        width : 60%;
+        height : 20%;
+    }
 }
