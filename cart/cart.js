@@ -146,9 +146,9 @@ function calculateArraySum (array){
     return sum;
 }
 
-function calculateAfterDiscount(yaakov){
+function calculateAfterDiscount(anArray){
     let newArray = [];
-    for (let item of yaakov){
+    for (let item of anArray){
         let price = item.price; 
         let quantity = Number(item.quantity);
         for (let i = 0; i < quantity; i++){
